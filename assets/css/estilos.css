@@ -49,33 +49,6 @@ a.btn:hover {
     text-decoration: none
 }
 
-#back-to-top {
-    background: #008fa1;
-    color: #fff;
-    text-align: center;
-    display: inline-block;
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    background-clip: padding-box;
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3)
-}
-
-#back-to-top:hover {
-    background: #007888;
-    color: #fff
-}
-
-#back-to-top:hover {
-    background: #007888;
-    color: #fff
-}
-
-#back-to-top svg {
-    position: relative;
-    font-weight: normal
-}
-
 .header {
     background: #00b4d4;
     color: #fff
@@ -119,7 +92,7 @@ a.btn:hover {
 }
 
 .header .actions a {
-    margin-right: 30px;
+    margin-right: 10px;
     color: #fff
 }
 
@@ -271,8 +244,6 @@ a.btn:hover {
     background: #fff;
     margin-bottom: 45px;
     border-radius: 2px;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
     background-clip: padding-box
 }
 
@@ -314,8 +285,6 @@ a.btn:hover {
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
     background-clip: padding-box;
     background: #fff;
     border: 3px solid #00BCD4
@@ -330,11 +299,8 @@ a.btn:hover {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
     background-clip: padding-box;
     background: #00BCD4;
-    z-index: 10
 }
 
 .timeline .work-place {
@@ -372,7 +338,7 @@ a.btn:hover {
 }
 
 .timeline .job-meta .time {
-    color: #00BCD4
+    color: #8a8a8a
 }
 
 .timeline .job-desc {
@@ -408,14 +374,6 @@ a.btn:hover {
 
 .education-section .desc {
     color: #666
-}
-
-.portfolio-section .filters {
-    list-style: none;
-    margin: 0 auto;
-    margin-bottom: 60px;
-    text-align: center;
-    border-bottom: 1px solid #e8e8e8
 }
 
 .contact-section .intro {
@@ -484,242 +442,97 @@ a.btn:hover {
     color: #8a8a8a
 }
 
+@media (max-width: 767px) {
+    .header .social {
+        margin: 0 auto;
+        text-align: center
+    }
 
-.header .actions {
-    position: static;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    text-align: center
-}
+    .header .actions {
+        position: static;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        text-align: center
+    }
 
-.header .actions .btn {
-    margin-bottom: 15px;
-    font-size: 12px;
-    display: inline-block;
-    width: 10%
-}
+    .header .actions .btn {
+        margin-bottom: 15px;
+        font-size: 12px;
+        display: inline-block;
+        width: 100%
+    }
 
-.header .actions .btn:last-child {
-    margin-bottom: 0
-}
+    .header .actions .btn:last-child {
+        margin-bottom: 0
+    }
 
-.header .name {
-    font-size: 36px
-}
+    .header .name {
+        font-size: 36px
+    }
 
-.header .title {
-    font-size: 22px
-}
+    .header .title {
+        font-size: 22px
+    }
 
-.header .contact-info li {
-    margin-right: 0;
-    margin-bottom: 15px;
-    font-size: 14px;
-    width: 100%;
-    display: inline-block
-}
+    .header .contact-info li {
+        margin-right: 0;
+        margin-bottom: 15px;
+        font-size: 14px;
+        width: 100%;
+        display: inline-block
+    }
 
-.header .contact-info li:last-child {
-    margin-bottom: 0
-}
+    .header .contact-info li:last-child {
+        margin-bottom: 0
+    }
 
-.section {
-    padding: 30px
-}
+    .section {
+        padding: 30px
+    }
 
-.section-title {
-    font-size: 20px
-}
+    .section-title {
+        font-size: 20px
+    }
 
-.education-section .item {
-    padding: 0
-}
+    .timeline {
+        margin-left: 0;
+        padding-right: 0
+    }
 
+    .timeline .place {
+        margin-bottom: 5px
+    }
 
+    .timeline .job-meta {
+        position: static;
+        margin-bottom: 15px
+    }
 
-.contact-section .intro {
-    padding: 0;
-    text-align: center
-}
+    .timeline .job-meta .title {
+        max-width: none
+    }
 
-.contact-section .intro .profile-image {
-    position: static;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    text-align: center
-}
+    .education-section .item {
+        padding: 0
+    }
 
-.contact-section .service-list {
-    margin-left: 0
-}
+    .contact-section .intro {
+        padding: 0;
+        text-align: center
+    }
 
-.contact-section .social {
-    margin: 0 auto
-}
+    .contact-section .intro .profile-image {
+        position: static;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        text-align: center
+    }
 
+    .contact-section .service-list {
+        margin-left: 0
+    }
 
-.config-trigger {
-    position: absolute;
-    top: 30px;
-    left: -36px;
-    width: 36px;
-    height: 36px;
-    background: #222;
-    color: #fff;
-    text-align: center;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 4px;
-    border-top-left-radius: 4px;
-    background-clip: padding-box;
-    text-decoration: none
-}
-
-.config-trigger:hover {
-    background: #000;
-    text-decoration: none
-}
-
-.config-trigger:hover .svg-inline--fa {
-    color: #fff
-}
-
-.config-trigger .svg-inline--fa {
-    font-size: 20px;
-    margin-top: 7px;
-    display: block;
-    color: rgba(255, 255, 255, 0.8)
-}
-
-.config-panel {
-    position: fixed;
-    top: 160px;
-    right: -190px;
-    width: 190px;
-
-}
-
-.config-panel.config-panel-open {
-    right: 0
-}
-
-.config-panel.config-panel-hide {
-    right: -190px
-}
-
-.config-panel .panel-inner {
-    position: relative;
-    background: #222;
-    color: #fff;
-    padding: 15px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 4px;
-    border-top-left-radius: 4px;
-    background-clip: padding-box
-}
-
-.config-panel h5 {
-    font-size: 16px
-}
-
-.config-panel label {
-    color: #fff
-}
-
-.config-panel #color-options {
-    margin-bottom: 0px
-}
-
-.config-panel #color-options li a {
-    display: block;
-    width: 28px;
-    height: 20px;
-    border: 2px solid transparent;
-    margin-bottom: 10px
-}
-
-.config-panel #color-options li a:hover {
-    opacity: .9;
-    border: 2px solid rgba(255, 255, 255, 0.8)
-}
-
-.config-panel #color-options li.active a {
-    border: 2px solid #fff
-}
-
-.config-panel #color-options li.theme-1 a {
-    background: #00BCD4
-}
-
-.config-panel #color-options li.theme-2 a {
-    background-color: #03A9F4
-}
-
-.config-panel #color-options li.theme-3 a {
-    background-color: #009688
-}
-
-.config-panel #color-options li.theme-4 a {
-    background-color: #4CAF50
-}
-
-.config-panel #color-options li.theme-5 a {
-    background-color: #8BC34A
-}
-
-.config-panel #color-options li.theme-6 a {
-    background-color: #C0CA33
-}
-
-.config-panel #color-options li.theme-7 a {
-    background-color: #FFC107
-}
-
-.config-panel #color-options li.theme-8 a {
-    background-color: #FF9800
-}
-
-.config-panel #color-options li.theme-9 a {
-    background-color: #FF5722
-}
-
-.config-panel #color-options li.theme-10 a {
-    background-color: #795548
-}
-
-.config-panel #color-options li.theme-11 a {
-    background-color: #607D8B
-}
-
-.config-panel #color-options li.theme-12 a {
-    background-color: #673AB7
-}
-
-.config-panel #color-options li.theme-13 a {
-    background-color: #3F51B5
-}
-
-.config-panel #color-options li.theme-14 a {
-    background-color: #2196F3
-}
-
-.config-panel #color-options li.theme-15 a {
-    background-color: #9C27B0
-}
-
-.config-panel #color-options li.theme-16 a {
-    background-color: #E91E63
-}
-
-.config-panel .close {
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    color: #fff
-}
-
-.config-panel .close .svg-inline--fa {
-    color: #fff;
-    font-size: 16px
+    .contact-section .social {
+        margin: 0 auto
+    }
 }
