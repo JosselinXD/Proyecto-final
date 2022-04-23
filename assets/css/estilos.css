@@ -48,6 +48,10 @@ a.btn:hover {
   text-decoration: none;
 }
 
+i {
+  margin-right: 10px;
+}
+
 .header {
   background: #00b4d4;
   color: #fff;
