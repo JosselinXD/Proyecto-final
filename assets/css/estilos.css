@@ -538,3 +538,7 @@ a.btn:hover {
 .h-rrss:hover {
   color: #000000;
 }
+
+.imgElla {
+  border-radius: 0.3em;
+}
