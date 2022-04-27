@@ -546,3 +546,20 @@ i {
 .imgElla {
   border-radius: 0.3em;
 }
+
+
+/*
+------------------------------------------------
+Agrega hover a imagenes a través de id etiqueta
+
+Milton
+------------------------------------------------
+*/
+
+#hov{
+  opacity:1 !important;
+}
+ 
+#hov:hover{
+  opacity:0.5 !important;
+}
